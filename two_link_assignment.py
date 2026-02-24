@@ -1,3 +1,12 @@
+# --------------------------------------------------
+# Two-Link Mechanism Simulation
+# Author: Ainaz Ebrahimi
+#
+# This script simulates a planar two-link mechanism.
+# It computes the position, velocity, acceleration,
+# and axial force in link AB for different scenarios.
+# --------------------------------------------------
+
 import shutil
 import os
 import numpy as np
@@ -184,4 +193,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
